@@ -1,0 +1,26 @@
+# format options
+# reference https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#andOperator 
+
+--lineaftermarks true
+--indent 2
+--maxwidth 120
+--xcodeindentation enabled
+--binarygrouping none
+--decimalgrouping none
+--exponentcase lowercase
+--header ignore
+--ifdef outdent
+--self init-only
+--stripunusedargs unnamed-only
+--swiftversion 5
+--trimwhitespace always
+--wraparguments before-first
+--wrapparameters before-first
+--nospaceoperators ...,..>,..<
+
+# rules
+
+--enable isEmpty
+--enable blankLineAfterImports
+--disable wrapArguments
+--disable trailingCommas

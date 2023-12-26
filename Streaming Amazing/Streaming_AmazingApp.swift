@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct Streaming_AmazingApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      RootScreen()
     }
+  }
 }
