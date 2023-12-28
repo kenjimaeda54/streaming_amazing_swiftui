@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Thumbnails {
-  let `default`: ThumbnailsDetailsModel
-  let medium: ThumbnailsDetailsModel
-  let high: ThumbnailsDetailsModel
-  let standard: ThumbnailsDetailsModel
+struct Thumbnails: Codable {
+  let `default`: ThumbnailsDetails
+  let medium: ThumbnailsDetails
+  let high: ThumbnailsDetails
+  let standard: ThumbnailsDetails
 }
 
-struct ThumbnailsDetailsModel {
+struct ThumbnailsDetails: Codable {
   let url: String
 }

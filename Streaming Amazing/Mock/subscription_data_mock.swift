@@ -13,10 +13,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Homem Arana",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -26,10 +26,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Homem de ferro",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -39,10 +39,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Destino",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -52,10 +52,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Foguete da nasa",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -65,10 +65,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Sapato de cor",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -77,10 +77,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Homem Arana",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -90,10 +90,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Linda de mais",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -103,10 +103,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Atropelado",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )
@@ -116,10 +116,10 @@ let subscriptionDataMock = Subscription(items: [
     snippet: SnippetSubscription(
       title: "Kenji",
       thumbnails: Thumbnails(
-        default: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        medium: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        high: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png"),
-        standard: ThumbnailsDetailsModel(url: "https://github.com/kenjimaeda54.png")
+        default: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        medium: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        high: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png"),
+        standard: ThumbnailsDetails(url: "https://github.com/kenjimaeda54.png")
       ),
       resourceId: ResourceId(channelId: "343434343")
     )

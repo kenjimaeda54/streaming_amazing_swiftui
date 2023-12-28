@@ -1,5 +1,5 @@
 //
-//  VideosWithChannelModel.swift
+//  VideosWithChannel.swift
 //  Streaming Amazing
 //
 //  Created by kenjimaeda on 25/12/23.
@@ -9,8 +9,9 @@ import Foundation
 
 // usar MV
 // https://developer.apple.com/forums/thread/699003
+// https://github.com/azamsharp/HotCoffeeMV/tree/main
 
-struct VideosWithChannel: Identifiable {
+struct VideosWithChannel: Identifiable, Codable {
   let thumbVideo: String
   let thumbProfileChannel: String
   let titleVideo: String

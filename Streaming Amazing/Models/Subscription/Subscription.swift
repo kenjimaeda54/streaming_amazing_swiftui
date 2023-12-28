@@ -7,21 +7,21 @@
 
 import Foundation
 
-struct Subscription {
+struct Subscription: Codable {
   let items: [ItensSubscription]
 }
 
-struct ItensSubscription: Identifiable {
+struct ItensSubscription: Identifiable, Codable {
   let id: String
   let snippet: SnippetSubscription
 }
 
-struct SnippetSubscription {
+struct SnippetSubscription: Codable {
   let title: String
   let thumbnails: Thumbnails
   let resourceId: ResourceId
 }
 
-struct ResourceId {
+struct ResourceId: Codable {
   let channelId: String
 }

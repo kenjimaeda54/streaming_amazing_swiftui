@@ -8,6 +8,8 @@
 import Foundation
 import SwiftUI
 
+let baseUrl = "https://www.googleapis.com/youtube/v3"
+
 let rowSpacing: CGFloat = 10
 var gridItensSubscriptions: [GridItem] {
   return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 1)

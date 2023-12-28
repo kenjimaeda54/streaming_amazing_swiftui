@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeScreen: View {
+  @StateObject private var videosChannelModel = VideosWithChannelModel()
+
   var body: some View {
     VStack(alignment: .leading, spacing: 14) {
       HStack {
@@ -39,18 +41,32 @@ struct HomeScreen: View {
         }
       }
       .frame(height: 100)
-      List(videosWithChannelMock) { video in
-        RowVideosWithChannel(videosWithChannel: video)
-          .listRowInsets(EdgeInsets())
-          .listRowSeparator(.hidden)
+
+      switch videosChannelModel.loading {
+      case .success:
+
+        List(videosChannelModel.videosWitchChannelModel) { video in
+          RowVideosWithChannel(videosWithChannel: video)
+            .listRowInsets(EdgeInsets())
+            .listRowSeparator(.hidden)
+        }
+        .padding(.trailing, 13)
+        .listStyle(.inset)
+        .scrollIndicators(.never)
+        .frame(minWidth: 0, maxWidth: .infinity)
+
+      case .loading:
+        Text("Loading")
+
+      case .failure:
+        Text("")
       }
-      .padding(.trailing, 13)
-      .listStyle(.inset)
-      .scrollIndicators(.never)
-      .frame(minWidth: 0, maxWidth: .infinity)
     }
     .padding(.leading, 15)
     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
+    .task {
+      await videosChannelModel.fetchVideosWitchChannelModel()
+    }
   }
 }
 

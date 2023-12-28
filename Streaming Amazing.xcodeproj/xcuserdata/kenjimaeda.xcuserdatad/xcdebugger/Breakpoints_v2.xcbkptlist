@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FB0BDFAA-E4A7-4480-BF21-A833282E2F91"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78E80CA2-DD09-42D9-9679-40C6ED2C0DDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Client/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "HttpClient"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "78E80CA2-DD09-42D9-9679-40C6ED2C0DDE - c305f010c10c8b31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Streaming_Amazing.HttpClient.deinit"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "78E80CA2-DD09-42D9-9679-40C6ED2C0DDE - fb610c7a9b800ccc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Streaming_Amazing.HttpClient.__deallocating_deinit"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "78E80CA2-DD09-42D9-9679-40C6ED2C0DDE - 7782c2aed53be871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Streaming_Amazing.HttpClient.__allocating_init() -&gt; Streaming_Amazing.HttpClient"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "78E80CA2-DD09-42D9-9679-40C6ED2C0DDE - fc1e420056901f15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Streaming_Amazing.HttpClient.init() -&gt; Streaming_Amazing.HttpClient"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5E5386F-02C7-4C7B-B036-8BA57BBB7ED6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Client/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetchVideoWithChannel(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5E5386F-02C7-4C7B-B036-8BA57BBB7ED6 - cf3a9c3e2dcbd9fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Streaming_Amazing.Channel, Alamofire.AFError&gt;) -&gt; () in closure #1 (Streaming_Amazing.ItemsVideo) async -&gt; () in Streaming_Amazing.HttpClient.fetchVideoWithChannel(completion: (Swift.Result&lt;Swift.Array&lt;Streaming_Amazing.VideosWithChannel&gt;, Streaming_Amazing.HttpError&gt;) -&gt; ()) async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "B5E5386F-02C7-4C7B-B036-8BA57BBB7ED6 - cf3a9c3e2dcbd9fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Streaming_Amazing.Channel, Alamofire.AFError&gt;) -&gt; () in closure #1 (Streaming_Amazing.ItemsVideo) async -&gt; () in Streaming_Amazing.HttpClient.fetchVideoWithChannel(completion: (Swift.Result&lt;Swift.Array&lt;Streaming_Amazing.VideosWithChannel&gt;, Streaming_Amazing.HttpError&gt;) -&gt; ()) async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AC51D59-371B-433D-B111-B91AAE451299"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Client/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchVideoWithChannel(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9DBC17D-BF22-4005-8F2F-4CEAC05286EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Client/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchVideoWithChannel(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            uuid = "57E81F71-F822-4542-B9BF-AE5FD2B50CC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x104990dcc">
+            <Locations>
+               <Location
+                  uuid = "57E81F71-F822-4542-B9BF-AE5FD2B50CC6 - 7782c2aed53be871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Streaming_Amazing.HttpClient.__allocating_init() -&gt; Streaming_Amazing.HttpClient"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD8BDD99-AFEB-463D-90B4-426C16484048"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Client/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchVideoWithChannel(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F3D92FE-24DB-40B3-B5A4-55D5380FC9AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchVideosWitchChannelModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5F3D92FE-24DB-40B3-B5A4-55D5380FC9AC - bb763492f386eed7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;Streaming_Amazing.VideosWithChannel&gt;, Streaming_Amazing.HttpError&gt;) -&gt; () in Streaming_Amazing.VideosWithChannelModel.fetchVideosWitchChannelModel() async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/%10Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "5F3D92FE-24DB-40B3-B5A4-55D5380FC9AC - 385982eb06bba4ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.Result&lt;Streaming_Amazing.VideosWithChannel, Streaming_Amazing.HttpError&gt;) -&gt; () in Streaming_Amazing.VideosWithChannelModel.fetchVideosWitchChannelModel() async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/%10Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E66992AD-45DF-477D-B5E6-04F73F5085AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchVideosWitchChannelModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E66992AD-45DF-477D-B5E6-04F73F5085AB - bb763492f386eef4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;Streaming_Amazing.VideosWithChannel&gt;, Streaming_Amazing.HttpError&gt;) -&gt; () in Streaming_Amazing.VideosWithChannelModel.fetchVideosWitchChannelModel() async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/%10Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E66992AD-45DF-477D-B5E6-04F73F5085AB - bb763492f386eef4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.Result&lt;Swift.Array&lt;Streaming_Amazing.VideosWithChannel&gt;, Streaming_Amazing.HttpError&gt;) -&gt; () in Streaming_Amazing.VideosWithChannelModel.fetchVideosWitchChannelModel() async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/%10Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "E66992AD-45DF-477D-B5E6-04F73F5085AB - 385982eb06bba48e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable () -&gt; () in closure #1 (Swift.Result&lt;Streaming_Amazing.VideosWithChannel, Streaming_Amazing.HttpError&gt;) -&gt; () in Streaming_Amazing.VideosWithChannelModel.fetchVideosWitchChannelModel() async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/%10Models/VideosWithChannel/ViodeosWithChannelModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5DA80EA-51D7-4270-96A7-3FA36E8DCFA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Client/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "fetchVideoWithChannel(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E5DA80EA-51D7-4270-96A7-3FA36E8DCFA4 - cf3a9c3e2dcbda28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Streaming_Amazing.Channel, Alamofire.AFError&gt;) -&gt; () in closure #1 (Streaming_Amazing.ItemsVideo) async -&gt; () in Streaming_Amazing.HttpClient.fetchVideoWithChannel(completion: (Swift.Result&lt;Swift.Array&lt;Streaming_Amazing.VideosWithChannel&gt;, Streaming_Amazing.HttpError&gt;) -&gt; ()) async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1676">
+               </Location>
+               <Location
+                  uuid = "E5DA80EA-51D7-4270-96A7-3FA36E8DCFA4 - dc1059d9fb576112"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Streaming_Amazing.Channel, Alamofire.AFError&gt;) -&gt; () in closure #1 (Streaming_Amazing.ItemsVideo) async -&gt; () in Streaming_Amazing.HttpClient.fetchVideoWithChannel(completion: (Swift.Result&lt;Streaming_Amazing.VideosWithChannel, Streaming_Amazing.HttpError&gt;) -&gt; ()) async -&gt; ()"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/Streaming%20Amazing/Streaming%20Amazing/Client/HttpClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
