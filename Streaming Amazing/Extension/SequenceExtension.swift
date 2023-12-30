@@ -7,6 +7,7 @@
 
 import Foundation
 
+// https://www.swiftbysundell.com/articles/async-and-concurrent-forEach-and-map/
 extension Sequence {
   func asyncForEach(
     _ operation: (Element) async throws -> Void

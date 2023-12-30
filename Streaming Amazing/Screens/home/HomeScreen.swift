@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeScreen: View {
   @StateObject private var videosChannelModel = VideosWithChannelModel()
+  @StateObject private var subscriptionModel = SubscriptionModel()
 
   var body: some View {
     VStack(alignment: .leading, spacing: 14) {
@@ -33,14 +34,24 @@ struct HomeScreen: View {
       .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
       Text("Assinaturas")
         .font(.custom(FontsApp.latoMBold, size: 20))
-      ScrollView(.horizontal, showsIndicators: false) {
-        LazyHGrid(rows: gridItensSubscriptions, spacing: rowSpacing, pinnedViews: []) {
-          ForEach(subscriptionDataMock.items) { data in
-            SubscriptionView(itenSubscription: data)
+
+      switch subscriptionModel.loading {
+      case .success:
+        ScrollView(.horizontal, showsIndicators: false) {
+          LazyHGrid(rows: gridItensSubscriptions, spacing: rowSpacing, pinnedViews: []) {
+            ForEach(subscriptionModel.subscription.items) { data in
+              SubscriptionView(itenSubscription: data)
+            }
           }
         }
+        .frame(height: 100)
+
+      case .loading:
+        Text("loading")
+
+      case .failure:
+        Text("")
       }
-      .frame(height: 100)
 
       switch videosChannelModel.loading {
       case .success:
@@ -66,6 +77,9 @@ struct HomeScreen: View {
     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
     .task {
       await videosChannelModel.fetchVideosWitchChannelModel()
+    }
+    .onAppear {
+      subscriptionModel.fetchSubscription()
     }
   }
 }

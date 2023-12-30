@@ -17,7 +17,6 @@ enum HttpError: Error {
 // https://www.swiftbysundell.com/articles/swift-concurrency-multiple-tasks-in-parallel/
 
 class HttpClient {
-  // tentar criar um fetchVideoWithChannel aqui, sera apenasu uma cahamda
   // referencia https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#using-alamofire-with-swift-concurrency
   // https://www.swiftbysundell.com/articles/async-and-concurrent-forEach-and-map/
   func fetchVideoWithChannel(completion: @escaping (Result<VideosWithChannel, HttpError>) -> Void) async {
@@ -35,7 +34,7 @@ class HttpClient {
           .request(
             "\(baseUrl)/channels?part=statistics&part=snippet&id=\(videoItem.snippet.channelId)&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
           )
-          .responseDecodable(of: Channel.self) { response in
+          .cacheResponse(using: .cache).responseDecodable(of: Channel.self) { response in
 
             switch response.result {
             case let .success(channel):
@@ -64,16 +63,23 @@ class HttpClient {
       completion(.failure(.badResponse))
     }
   }
-}
 
-// let channelWithVideo = VideosWithChannel(
-//							thumbVideo: item.snippet.thumbnails.high.url,
-//							thumbProfileChannel: channel.items[0].snippet.thumbnails.medium.url,
-//							titleVideo: item.snippet.title,
-//							publishedVideo: item.snippet.publishedAt,
-//							id: UUID().uuidString,
-//							videoId: item.id.videoId,
-//							descriptionVideo: item.snippet.description,
-//							subscriberCountChannel: channel.items[0].statistics.subscriberCount,
-//							channelId: item.snippet.channelId
-//						)
+  // `
+  func fetchSubscription(completion: @escaping (Result<Subscription, HttpError>) -> Void) {
+    AF
+      .request(
+        "\(baseUrl)/subscriptions?part=snippet&maxResults=10&mine=true&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
+      )
+      .cacheResponse(using: .cache).responseDecodable(of: Subscription.self) { data in
+
+        switch data.result {
+        case let .failure(error):
+          debugPrint(error)
+          completion(.failure(.noData))
+
+        case let .success(subscription):
+          completion(.success(subscription))
+        }
+      }
+  }
+}
