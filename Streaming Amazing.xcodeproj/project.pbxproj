@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		810B33922B3858900051FA55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B33912B3858900051FA55 /* Constants.swift */; };
 		810B33952B3859B70051FA55 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B33942B3859B70051FA55 /* Subscription.swift */; };
-		810B33972B385A6A0051FA55 /* Thumbnails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B33962B385A6A0051FA55 /* Thumbnails.swift */; };
+		810B33972B385A6A0051FA55 /* ThumbnailsSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B33962B385A6A0051FA55 /* ThumbnailsSubscription.swift */; };
 		810B339A2B385B7E0051FA55 /* subscription_data_mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B33992B385B7E0051FA55 /* subscription_data_mock.swift */; };
 		810B339D2B3861180051FA55 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B339C2B3861180051FA55 /* SubscriptionView.swift */; };
+		8117EB962B46411200D304D8 /* TiitleAndSubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117EB952B46411200D304D8 /* TiitleAndSubTitle.swift */; };
 		811B5DD22B371260004AF185 /* Streaming_AmazingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811B5DD12B371260004AF185 /* Streaming_AmazingApp.swift */; };
 		811B5DD62B371261004AF185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811B5DD52B371261004AF185 /* Assets.xcassets */; };
 		811B5DD92B371261004AF185 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811B5DD82B371261004AF185 /* Preview Assets.xcassets */; };
@@ -55,6 +56,13 @@
 		81C3FECA2B39A21A00C30B06 /* videosWithChannelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3FEC92B39A21A00C30B06 /* videosWithChannelMock.swift */; };
 		81C3FECC2B39A3DC00C30B06 /* RowVideosWithChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3FECB2B39A3DC00C30B06 /* RowVideosWithChannel.swift */; };
 		81C95E2D2B404B3C00671E71 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E2C2B404B3C00671E71 /* SubscriptionModel.swift */; };
+		81C95E372B40532400671E71 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 81C95E362B40532400671E71 /* GoogleSignIn */; };
+		81C95E392B40532400671E71 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 81C95E382B40532400671E71 /* GoogleSignInSwift */; };
+		81C95E412B405E2B00671E71 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E402B405E2B00671E71 /* User.swift */; };
+		81C95E432B405E8900671E71 /* UserAuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E422B405E8900671E71 /* UserAuthenticationModel.swift */; };
+		81C95E482B4092AD00671E71 /* SigInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E472B4092AD00671E71 /* SigInScreen.swift */; };
+		81C95E4A2B40969D00671E71 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E492B40969D00671E71 /* ImageExtension.swift */; };
+		81C95E4D2B409AC100671E71 /* FontWithLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E4C2B409AC100671E71 /* FontWithLineHeight.swift */; };
 		81EDBA452B37604D004C39E6 /* FontsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBA442B37604D004C39E6 /* FontsApp.swift */; };
 		81EDBA472B37660B004C39E6 /* BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBA462B37660B004C39E6 /* BottomNavigation.swift */; };
 		81EDBA4B2B376690004C39E6 /* BottomItemNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBA4A2B376690004C39E6 /* BottomItemNavigation.swift */; };
@@ -68,9 +76,10 @@
 /* Begin PBXFileReference section */
 		810B33912B3858900051FA55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		810B33942B3859B70051FA55 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
-		810B33962B385A6A0051FA55 /* Thumbnails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
+		810B33962B385A6A0051FA55 /* ThumbnailsSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsSubscription.swift; sourceTree = "<group>"; };
 		810B33992B385B7E0051FA55 /* subscription_data_mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscription_data_mock.swift; sourceTree = "<group>"; };
 		810B339C2B3861180051FA55 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		8117EB952B46411200D304D8 /* TiitleAndSubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiitleAndSubTitle.swift; sourceTree = "<group>"; };
 		811B5DCE2B371260004AF185 /* Streaming Amazing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Streaming Amazing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811B5DD12B371260004AF185 /* Streaming_AmazingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streaming_AmazingApp.swift; sourceTree = "<group>"; };
 		811B5DD52B371261004AF185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,6 +124,11 @@
 		81C3FEC92B39A21A00C30B06 /* videosWithChannelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videosWithChannelMock.swift; sourceTree = "<group>"; };
 		81C3FECB2B39A3DC00C30B06 /* RowVideosWithChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowVideosWithChannel.swift; sourceTree = "<group>"; };
 		81C95E2C2B404B3C00671E71 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		81C95E402B405E2B00671E71 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		81C95E422B405E8900671E71 /* UserAuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationModel.swift; sourceTree = "<group>"; };
+		81C95E472B4092AD00671E71 /* SigInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInScreen.swift; sourceTree = "<group>"; };
+		81C95E492B40969D00671E71 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		81C95E4C2B409AC100671E71 /* FontWithLineHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWithLineHeight.swift; sourceTree = "<group>"; };
 		81EDBA442B37604D004C39E6 /* FontsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsApp.swift; sourceTree = "<group>"; };
 		81EDBA462B37660B004C39E6 /* BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigation.swift; sourceTree = "<group>"; };
 		81EDBA4A2B376690004C39E6 /* BottomItemNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomItemNavigation.swift; sourceTree = "<group>"; };
@@ -130,7 +144,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C95E392B40532400671E71 /* GoogleSignInSwift in Frameworks */,
 				813870042B3A538900E30BD6 /* Alamofire in Frameworks */,
+				81C95E372B40532400671E71 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +165,7 @@
 		810B33932B3859970051FA55 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				81C95E3A2B4053A700671E71 /* User */,
 				8138700D2B3A5B9200E30BD6 /* Channel */,
 				813870072B3A565400E30BD6 /* Videos */,
 				81386FFD2B3A4F4100E30BD6 /* VideosWithChannel */,
@@ -176,6 +193,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8117EB922B4640BF00D304D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8117EB952B46411200D304D8 /* TiitleAndSubTitle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		811B5DC52B371260004AF185 = {
 			isa = PBXGroup;
 			children = (
@@ -196,17 +221,17 @@
 		811B5DD02B371260004AF185 /* Streaming Amazing */ = {
 			isa = PBXGroup;
 			children = (
+				81C95E4B2B409A7F00671E71 /* Modifiers */,
 				812D90042B3BB5B000896094 /* Extension */,
 				81386FFE2B3A504500E30BD6 /* Client */,
 				810B33982B385B500051FA55 /* Mock */,
 				810B33932B3859970051FA55 /* Models */,
 				810B33902B3858570051FA55 /* Utility */,
-				811B5DE12B371B91004AF185 /* Views */,
 				811B5DE02B371B8C004AF185 /* Screens */,
 				811B5DDF2B371B80004AF185 /* Theme */,
+				811B5DD72B371261004AF185 /* Preview Content */,
 				811B5DD12B371260004AF185 /* Streaming_AmazingApp.swift */,
 				811B5DD52B371261004AF185 /* Assets.xcassets */,
-				811B5DD72B371261004AF185 /* Preview Content */,
 			);
 			path = "Streaming Amazing";
 			sourceTree = "<group>";
@@ -232,20 +257,14 @@
 		811B5DE02B371B8C004AF185 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				81F6AB1F2B3774890088F70D /* root */,
-				81F6AB182B3773AD0088F70D /* profille */,
-				81F6AB172B37739F0088F70D /* live */,
-				81F6AB162B3773920088F70D /* home */,
+				81C95E442B40926F00671E71 /* SigIn */,
+				81F6AB1F2B3774890088F70D /* Root */,
+				81F6AB182B3773AD0088F70D /* Profille */,
+				81F6AB172B37739F0088F70D /* Live */,
+				81F6AB162B3773920088F70D /* Home */,
 				81EDBA482B376657004C39E6 /* bottom_navigation */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		811B5DE12B371B91004AF185 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		811B5DE22B371BB5004AF185 /* fonts */ = {
@@ -287,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				81494B3A2B3D062100D49731 /* SequenceExtension.swift */,
+				81C95E492B40969D00671E71 /* ImageExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -303,7 +323,7 @@
 		81386FFC2B3A4F2000E30BD6 /* Thumbnails */ = {
 			isa = PBXGroup;
 			children = (
-				810B33962B385A6A0051FA55 /* Thumbnails.swift */,
+				810B33962B385A6A0051FA55 /* ThumbnailsSubscription.swift */,
 			);
 			path = Thumbnails;
 			sourceTree = "<group>";
@@ -341,6 +361,31 @@
 			path = Channel;
 			sourceTree = "<group>";
 		};
+		81C95E3A2B4053A700671E71 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				81C95E402B405E2B00671E71 /* User.swift */,
+				81C95E422B405E8900671E71 /* UserAuthenticationModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		81C95E442B40926F00671E71 /* SigIn */ = {
+			isa = PBXGroup;
+			children = (
+				81C95E472B4092AD00671E71 /* SigInScreen.swift */,
+			);
+			path = SigIn;
+			sourceTree = "<group>";
+		};
+		81C95E4B2B409A7F00671E71 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				81C95E4C2B409AC100671E71 /* FontWithLineHeight.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		81EDBA482B376657004C39E6 /* bottom_navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -359,37 +404,38 @@
 			path = view;
 			sourceTree = "<group>";
 		};
-		81F6AB162B3773920088F70D /* home */ = {
+		81F6AB162B3773920088F70D /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				810B339B2B3860CA0051FA55 /* View */,
 				81F6AB192B3773C90088F70D /* HomeScreen.swift */,
 			);
-			path = home;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		81F6AB172B37739F0088F70D /* live */ = {
+		81F6AB172B37739F0088F70D /* Live */ = {
 			isa = PBXGroup;
 			children = (
 				81F6AB1B2B3773E30088F70D /* LiveScreen.swift */,
 			);
-			path = live;
+			path = "\U0010Live";
 			sourceTree = "<group>";
 		};
-		81F6AB182B3773AD0088F70D /* profille */ = {
+		81F6AB182B3773AD0088F70D /* Profille */ = {
 			isa = PBXGroup;
 			children = (
+				8117EB922B4640BF00D304D8 /* View */,
 				81F6AB1D2B3773FC0088F70D /* ProfileScreen.swift */,
 			);
-			path = profille;
+			path = Profille;
 			sourceTree = "<group>";
 		};
-		81F6AB1F2B3774890088F70D /* root */ = {
+		81F6AB1F2B3774890088F70D /* Root */ = {
 			isa = PBXGroup;
 			children = (
 				81F6AB202B3774AF0088F70D /* RootScreen.swift */,
 			);
-			path = root;
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +458,8 @@
 			name = "Streaming Amazing";
 			packageProductDependencies = (
 				813870032B3A538900E30BD6 /* Alamofire */,
+				81C95E362B40532400671E71 /* GoogleSignIn */,
+				81C95E382B40532400671E71 /* GoogleSignInSwift */,
 			);
 			productName = "Streaming Amazing";
 			productReference = 811B5DCE2B371260004AF185 /* Streaming Amazing.app */;
@@ -443,6 +491,7 @@
 			mainGroup = 811B5DC52B371260004AF185;
 			packageReferences = (
 				813870022B3A538900E30BD6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				81C95E352B40532300671E71 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 811B5DCF2B371260004AF185 /* Products */;
 			projectDirPath = "";
@@ -537,24 +586,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C95E432B405E8900671E71 /* UserAuthenticationModel.swift in Sources */,
+				81C95E412B405E2B00671E71 /* User.swift in Sources */,
 				81494B3B2B3D062100D49731 /* SequenceExtension.swift in Sources */,
 				8138700C2B3A589D00E30BD6 /* LoadingState.swift in Sources */,
 				810B339A2B385B7E0051FA55 /* subscription_data_mock.swift in Sources */,
 				81EDBA452B37604D004C39E6 /* FontsApp.swift in Sources */,
+				81C95E482B4092AD00671E71 /* SigInScreen.swift in Sources */,
 				810B33922B3858900051FA55 /* Constants.swift in Sources */,
 				81EDBA4B2B376690004C39E6 /* BottomItemNavigation.swift in Sources */,
 				81F6AB212B3774AF0088F70D /* RootScreen.swift in Sources */,
 				810B33952B3859B70051FA55 /* Subscription.swift in Sources */,
+				81C95E4D2B409AC100671E71 /* FontWithLineHeight.swift in Sources */,
 				81EDBA472B37660B004C39E6 /* BottomNavigation.swift in Sources */,
 				81C3FEC82B39A17800C30B06 /* VideosWithChannel.swift in Sources */,
 				813870002B3A50D000E30BD6 /* HttpClient.swift in Sources */,
-				810B33972B385A6A0051FA55 /* Thumbnails.swift in Sources */,
+				810B33972B385A6A0051FA55 /* ThumbnailsSubscription.swift in Sources */,
+				81C95E4A2B40969D00671E71 /* ImageExtension.swift in Sources */,
 				810B339D2B3861180051FA55 /* SubscriptionView.swift in Sources */,
 				81F6AB1A2B3773C90088F70D /* HomeScreen.swift in Sources */,
 				8138700A2B3A585400E30BD6 /* ViodeosWithChannelModel.swift in Sources */,
 				81C95E2D2B404B3C00671E71 /* SubscriptionModel.swift in Sources */,
 				811B5E1E2B371E04004AF185 /* ColorsApp.swift in Sources */,
 				813870062B3A565000E30BD6 /* Videos.swift in Sources */,
+				8117EB962B46411200D304D8 /* TiitleAndSubTitle.swift in Sources */,
 				81C3FECC2B39A3DC00C30B06 /* RowVideosWithChannel.swift in Sources */,
 				81F6AB1C2B3773E30088F70D /* LiveScreen.swift in Sources */,
 				81F6AB152B3767380088F70D /* ContentButtonTabBar.swift in Sources */,
@@ -783,6 +838,14 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		81C95E352B40532300671E71 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -790,6 +853,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 813870022B3A538900E30BD6 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		81C95E362B40532400671E71 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81C95E352B40532300671E71 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		81C95E382B40532400671E71 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81C95E352B40532300671E71 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

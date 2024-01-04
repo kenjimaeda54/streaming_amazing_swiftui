@@ -19,10 +19,17 @@ enum HttpError: Error {
 class HttpClient {
   // referencia https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#using-alamofire-with-swift-concurrency
   // https://www.swiftbysundell.com/articles/async-and-concurrent-forEach-and-map/
-  func fetchVideoWithChannel(completion: @escaping (Result<VideosWithChannel, HttpError>) -> Void) async {
+  func fetchVideoWithChannel(
+    completion: @escaping (Result<VideosWithChannel, HttpError>) -> Void,
+    _ isLive: Bool
+  ) async {
+    let url = isLive ?
+      "\(baseUrl)/search?part=snippet&eventType=live&maxResults=10&regionCode=BR&relevanceLanguage=pt&type=video&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
+      :
+      "\(baseUrl)/search?part=snippet&relevanceLanguage=pt&maxResults=10&videoDuration=medium&type=video&regionCode=BR&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
     let responseVideo = await AF
       .request(
-        "\(baseUrl)/search?part=snippet&relevanceLanguage=pt&maxResults=10&videoDuration=medium&type=video&regionCode=BR&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
+        url
       )
       .cacheResponse(using: .cache).serializingDecodable(Video.self).response
 
@@ -64,11 +71,14 @@ class HttpClient {
     }
   }
 
-  // `
-  func fetchSubscription(completion: @escaping (Result<Subscription, HttpError>) -> Void) {
+  func fetchSubscription(token: String, completion: @escaping (Result<Subscription, HttpError>) -> Void) {
+    let headers: HTTPHeaders = [
+      "Authorization": "Bearer \(token)"
+    ]
     AF
       .request(
-        "\(baseUrl)/subscriptions?part=snippet&maxResults=10&mine=true&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
+        "\(baseUrl)/subscriptions?part=snippet&maxResults=10&mine=true&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw",
+        headers: headers
       )
       .cacheResponse(using: .cache).responseDecodable(of: Subscription.self) { data in
 

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BottomNavigation: View {
   @State var currentTag: TabsTag = .home
+  @StateObject var userAuthenticationModel = UserAuthenticationModel()
 
   func handleCurrentTag(_ tag: TabsTag) {
     currentTag = tag
@@ -38,6 +39,7 @@ struct BottomNavigation: View {
           }
       }
     }
+    .environmentObject(userAuthenticationModel)
   }
 }
 

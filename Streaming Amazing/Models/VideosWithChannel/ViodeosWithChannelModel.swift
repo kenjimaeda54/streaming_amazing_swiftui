@@ -12,8 +12,8 @@ class VideosWithChannelModel: ObservableObject {
   @Published var videosWitchChannelModel: [VideosWithChannel] = []
   var httpClient = HttpClient()
 
-  func fetchVideosWitchChannelModel() async {
-    await httpClient.fetchVideoWithChannel { result in
+  func fetchVideosWitchChannelModel(_ isLive: Bool = false) async {
+    await httpClient.fetchVideoWithChannel(completion: { result in
 
       switch result {
       case .failure:
@@ -29,6 +29,6 @@ class VideosWithChannelModel: ObservableObject {
           self.videosWitchChannelModel.append(channelWithVideo)
         }
       }
-    }
+    }, isLive)
   }
 }

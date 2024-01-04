@@ -10,11 +10,15 @@ import SwiftUI
 struct HomeScreen: View {
   @StateObject private var videosChannelModel = VideosWithChannelModel()
   @StateObject private var subscriptionModel = SubscriptionModel()
+  @EnvironmentObject var userAuthentication: UserAuthenticationModel
 
   var body: some View {
     VStack(alignment: .leading, spacing: 14) {
       HStack {
-        AsyncImage(url: URL(string: "https://github.com/kenjimaeda54.png")) { phase in
+        AsyncImage(url: URL(
+          string: userAuthentication.user.user
+            .photo ?? "https://github.com/kenjimaeda54.png"
+        )) { phase in
           if let photo = phase.image {
             photo
               .resizable()
@@ -26,14 +30,14 @@ struct HomeScreen: View {
           Text("Bem vindo de volta 👋")
             .font(.custom(FontsApp.latoLight, size: 15))
             .foregroundStyle(.black100)
-          Text("Alex Ferandno")
-            .font(.custom(FontsApp.latoMBold, size: 18))
+          Text(userAuthentication.user.user.givenName ?? "")
+            .font(.custom(FontsApp.latoBold, size: 18))
             .foregroundStyle(.black100)
         }
       }
       .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
       Text("Assinaturas")
-        .font(.custom(FontsApp.latoMBold, size: 20))
+        .font(.custom(FontsApp.latoBold, size: 20))
 
       switch subscriptionModel.loading {
       case .success:
@@ -79,11 +83,11 @@ struct HomeScreen: View {
       await videosChannelModel.fetchVideosWitchChannelModel()
     }
     .onAppear {
-      subscriptionModel.fetchSubscription()
+      subscriptionModel.fetchSubscription(token: userAuthentication.user.idToken ?? "")
     }
   }
 }
 
 #Preview {
-  HomeScreen()
+  HomeScreen().environmentObject(UserAuthenticationModel())
 }

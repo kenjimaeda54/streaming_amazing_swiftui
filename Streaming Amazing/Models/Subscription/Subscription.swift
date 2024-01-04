@@ -18,10 +18,16 @@ struct ItensSubscription: Identifiable, Codable {
 
 struct SnippetSubscription: Codable {
   let title: String
-  let thumbnails: Thumbnails
+  let thumbnails: ThumbnailsSubscription
   let resourceId: ResourceId
 }
 
 struct ResourceId: Codable {
   let channelId: String
+}
+
+struct ThumbnailsSubscription: Codable {
+  let `default`: ThumbnailsDetails
+  let medium: ThumbnailsDetails
+  let high: ThumbnailsDetails
 }

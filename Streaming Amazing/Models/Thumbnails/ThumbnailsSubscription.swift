@@ -1,5 +1,5 @@
 //
-//  Thumbnails.swift
+//  ThumbnailsSubscription.swift
 //  Streaming Amazing
 //
 //  Created by kenjimaeda on 24/12/23.

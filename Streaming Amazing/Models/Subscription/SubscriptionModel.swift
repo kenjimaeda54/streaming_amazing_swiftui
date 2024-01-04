@@ -12,8 +12,8 @@ class SubscriptionModel: ObservableObject {
   var subscription: Subscription = .init(items: [])
   var httpClient = HttpClient()
 
-  func fetchSubscription() {
-    httpClient.fetchSubscription { result in
+  func fetchSubscription(token: String) {
+    httpClient.fetchSubscription(token: token) { result in
 
       switch result {
       case .failure:
