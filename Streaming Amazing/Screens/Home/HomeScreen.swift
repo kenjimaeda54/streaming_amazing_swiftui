@@ -21,11 +21,14 @@ struct HomeScreen: View {
           string: userAuthentication.user.user
             .photo ?? "https://github.com/kenjimaeda54.png"
         )) { phase in
+
           if let photo = phase.image {
             photo
               .resizable()
               .frame(width: 60, height: 60)
               .clipShape(RoundedRectangle(cornerRadius: 30))
+          } else {
+            PlaceholderAvatar()
           }
         }
         VStack(alignment: .leading) {
@@ -53,7 +56,7 @@ struct HomeScreen: View {
         .frame(height: 100)
 
       case .loading:
-        Text("loading")
+        PlaceHolderAvatarSubscription()
 
       case .failure:
         Text("")
@@ -76,7 +79,7 @@ struct HomeScreen: View {
         .frame(minWidth: 0, maxWidth: .infinity)
 
       case .loading:
-        Text("Loading")
+        PlaceHolderVideosWithChannel()
 
       case .failure:
         Text("")

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LiveScreen: View {
   @StateObject private var videosChannelModel = VideosWithChannelModel()
+  @State private var isPresentedDetails = false
+  @State private var videoSelected: VideosWithChannel?
 
   var body: some View {
     VStack(alignment: .leading, spacing: 14) {
@@ -16,6 +18,10 @@ struct LiveScreen: View {
         RowVideosWithChannel(videosWithChannel: video)
           .listRowInsets(EdgeInsets())
           .listRowSeparator(.hidden)
+          .onTapGesture {
+            isPresentedDetails = true
+            videoSelected = video
+          }
       }
       .padding(.trailing, 13)
       .listStyle(.inset)
@@ -26,6 +32,12 @@ struct LiveScreen: View {
     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)
     .task {
       await videosChannelModel.fetchVideosWitchChannelModel(true)
+    }
+    .navigationDestination(isPresented: $isPresentedDetails) {
+      if let video = videoSelected {
+        DetailsVideoScreen(video: video)
+          .navigationBarBackButtonHidden()
+      }
     }
   }
 }
