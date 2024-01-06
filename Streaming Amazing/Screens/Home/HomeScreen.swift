@@ -11,6 +11,8 @@ struct HomeScreen: View {
   @StateObject private var videosChannelModel = VideosWithChannelModel()
   @StateObject private var subscriptionModel = SubscriptionModel()
   @EnvironmentObject var userAuthentication: UserAuthenticationModel
+  @State private var isPresentedDetails = false
+  @State private var videoSelected: VideosWithChannel?
 
   var body: some View {
     VStack(alignment: .leading, spacing: 14) {
@@ -22,8 +24,8 @@ struct HomeScreen: View {
           if let photo = phase.image {
             photo
               .resizable()
-              .frame(width: 80, height: 80)
-              .clipShape(RoundedRectangle(cornerRadius: 40))
+              .frame(width: 60, height: 60)
+              .clipShape(RoundedRectangle(cornerRadius: 30))
           }
         }
         VStack(alignment: .leading) {
@@ -59,11 +61,14 @@ struct HomeScreen: View {
 
       switch videosChannelModel.loading {
       case .success:
-
         List(videosChannelModel.videosWitchChannelModel) { video in
           RowVideosWithChannel(videosWithChannel: video)
             .listRowInsets(EdgeInsets())
             .listRowSeparator(.hidden)
+            .onTapGesture {
+              isPresentedDetails = true
+              videoSelected = video
+            }
         }
         .padding(.trailing, 13)
         .listStyle(.inset)
@@ -84,6 +89,12 @@ struct HomeScreen: View {
     }
     .onAppear {
       subscriptionModel.fetchSubscription(token: userAuthentication.user.idToken ?? "")
+    }
+    .navigationDestination(isPresented: $isPresentedDetails) {
+      if let video = videoSelected {
+        DetailsVideoScreen(video: video)
+          .navigationBarBackButtonHidden()
+      }
     }
   }
 }

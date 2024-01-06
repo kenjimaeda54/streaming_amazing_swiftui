@@ -52,6 +52,10 @@
 		8138700C2B3A589D00E30BD6 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8138700B2B3A589D00E30BD6 /* LoadingState.swift */; };
 		8138700F2B3A5BB200E30BD6 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8138700E2B3A5BB200E30BD6 /* Channel.swift */; };
 		81494B3B2B3D062100D49731 /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81494B3A2B3D062100D49731 /* SequenceExtension.swift */; };
+		816ED3402B49C1D0008AC849 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816ED33F2B49C1D0008AC849 /* BackButton.swift */; };
+		816ED3422B49C590008AC849 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816ED3412B49C590008AC849 /* DoubleExtension.swift */; };
+		81A8823F2B471C0900A184E8 /* VideoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8823E2B471C0900A184E8 /* VideoDetails.swift */; };
+		81A882412B471CE600A184E8 /* VideoDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A882402B471CE600A184E8 /* VideoDetailsModel.swift */; };
 		81C3FEC82B39A17800C30B06 /* VideosWithChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3FEC72B39A17800C30B06 /* VideosWithChannel.swift */; };
 		81C3FECA2B39A21A00C30B06 /* videosWithChannelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3FEC92B39A21A00C30B06 /* videosWithChannelMock.swift */; };
 		81C3FECC2B39A3DC00C30B06 /* RowVideosWithChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3FECB2B39A3DC00C30B06 /* RowVideosWithChannel.swift */; };
@@ -63,6 +67,8 @@
 		81C95E482B4092AD00671E71 /* SigInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E472B4092AD00671E71 /* SigInScreen.swift */; };
 		81C95E4A2B40969D00671E71 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E492B40969D00671E71 /* ImageExtension.swift */; };
 		81C95E4D2B409AC100671E71 /* FontWithLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C95E4C2B409AC100671E71 /* FontWithLineHeight.swift */; };
+		81ECCBB22B46D7C4004190AC /* DetailsVideoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ECCBB12B46D7C4004190AC /* DetailsVideoScreen.swift */; };
+		81ECCBB52B46DAF8004190AC /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 81ECCBB42B46DAF8004190AC /* YouTubePlayerKit */; };
 		81EDBA452B37604D004C39E6 /* FontsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBA442B37604D004C39E6 /* FontsApp.swift */; };
 		81EDBA472B37660B004C39E6 /* BottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBA462B37660B004C39E6 /* BottomNavigation.swift */; };
 		81EDBA4B2B376690004C39E6 /* BottomItemNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBA4A2B376690004C39E6 /* BottomItemNavigation.swift */; };
@@ -120,6 +126,10 @@
 		8138700B2B3A589D00E30BD6 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		8138700E2B3A5BB200E30BD6 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		81494B3A2B3D062100D49731 /* SequenceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
+		816ED33F2B49C1D0008AC849 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		816ED3412B49C590008AC849 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		81A8823E2B471C0900A184E8 /* VideoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetails.swift; sourceTree = "<group>"; };
+		81A882402B471CE600A184E8 /* VideoDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsModel.swift; sourceTree = "<group>"; };
 		81C3FEC72B39A17800C30B06 /* VideosWithChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosWithChannel.swift; sourceTree = "<group>"; };
 		81C3FEC92B39A21A00C30B06 /* videosWithChannelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videosWithChannelMock.swift; sourceTree = "<group>"; };
 		81C3FECB2B39A3DC00C30B06 /* RowVideosWithChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowVideosWithChannel.swift; sourceTree = "<group>"; };
@@ -129,6 +139,7 @@
 		81C95E472B4092AD00671E71 /* SigInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInScreen.swift; sourceTree = "<group>"; };
 		81C95E492B40969D00671E71 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		81C95E4C2B409AC100671E71 /* FontWithLineHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWithLineHeight.swift; sourceTree = "<group>"; };
+		81ECCBB12B46D7C4004190AC /* DetailsVideoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVideoScreen.swift; sourceTree = "<group>"; };
 		81EDBA442B37604D004C39E6 /* FontsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsApp.swift; sourceTree = "<group>"; };
 		81EDBA462B37660B004C39E6 /* BottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigation.swift; sourceTree = "<group>"; };
 		81EDBA4A2B376690004C39E6 /* BottomItemNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomItemNavigation.swift; sourceTree = "<group>"; };
@@ -146,6 +157,7 @@
 			files = (
 				81C95E392B40532400671E71 /* GoogleSignInSwift in Frameworks */,
 				813870042B3A538900E30BD6 /* Alamofire in Frameworks */,
+				81ECCBB52B46DAF8004190AC /* YouTubePlayerKit in Frameworks */,
 				81C95E372B40532400671E71 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,9 +177,9 @@
 		810B33932B3859970051FA55 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				81A8823D2B471BE600A184E8 /* VideoDetails */,
 				81C95E3A2B4053A700671E71 /* User */,
 				8138700D2B3A5B9200E30BD6 /* Channel */,
-				813870072B3A565400E30BD6 /* Videos */,
 				81386FFD2B3A4F4100E30BD6 /* VideosWithChannel */,
 				81386FFC2B3A4F2000E30BD6 /* Thumbnails */,
 				81386FFB2B3A4F0300E30BD6 /* Subscription */,
@@ -221,6 +233,7 @@
 		811B5DD02B371260004AF185 /* Streaming Amazing */ = {
 			isa = PBXGroup;
 			children = (
+				816ED33E2B49C1B9008AC849 /* Views */,
 				81C95E4B2B409A7F00671E71 /* Modifiers */,
 				812D90042B3BB5B000896094 /* Extension */,
 				81386FFE2B3A504500E30BD6 /* Client */,
@@ -257,12 +270,13 @@
 		811B5DE02B371B8C004AF185 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				81ECCBB02B46D7A2004190AC /* DetailsVideo */,
 				81C95E442B40926F00671E71 /* SigIn */,
 				81F6AB1F2B3774890088F70D /* Root */,
 				81F6AB182B3773AD0088F70D /* Profille */,
 				81F6AB172B37739F0088F70D /* Live */,
 				81F6AB162B3773920088F70D /* Home */,
-				81EDBA482B376657004C39E6 /* bottom_navigation */,
+				81EDBA482B376657004C39E6 /* BottomNavigation */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -307,6 +321,7 @@
 			children = (
 				81494B3A2B3D062100D49731 /* SequenceExtension.swift */,
 				81C95E492B40969D00671E71 /* ImageExtension.swift */,
+				816ED3412B49C590008AC849 /* DoubleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -331,6 +346,7 @@
 		81386FFD2B3A4F4100E30BD6 /* VideosWithChannel */ = {
 			isa = PBXGroup;
 			children = (
+				813870052B3A565000E30BD6 /* Videos.swift */,
 				81C3FEC72B39A17800C30B06 /* VideosWithChannel.swift */,
 				813870092B3A585400E30BD6 /* ViodeosWithChannelModel.swift */,
 			);
@@ -345,20 +361,29 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
-		813870072B3A565400E30BD6 /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				813870052B3A565000E30BD6 /* Videos.swift */,
-			);
-			path = Videos;
-			sourceTree = "<group>";
-		};
 		8138700D2B3A5B9200E30BD6 /* Channel */ = {
 			isa = PBXGroup;
 			children = (
 				8138700E2B3A5BB200E30BD6 /* Channel.swift */,
 			);
 			path = Channel;
+			sourceTree = "<group>";
+		};
+		816ED33E2B49C1B9008AC849 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				816ED33F2B49C1D0008AC849 /* BackButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81A8823D2B471BE600A184E8 /* VideoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				81A8823E2B471C0900A184E8 /* VideoDetails.swift */,
+				81A882402B471CE600A184E8 /* VideoDetailsModel.swift */,
+			);
+			path = VideoDetails;
 			sourceTree = "<group>";
 		};
 		81C95E3A2B4053A700671E71 /* User */ = {
@@ -386,13 +411,21 @@
 			path = Modifiers;
 			sourceTree = "<group>";
 		};
-		81EDBA482B376657004C39E6 /* bottom_navigation */ = {
+		81ECCBB02B46D7A2004190AC /* DetailsVideo */ = {
+			isa = PBXGroup;
+			children = (
+				81ECCBB12B46D7C4004190AC /* DetailsVideoScreen.swift */,
+			);
+			path = DetailsVideo;
+			sourceTree = "<group>";
+		};
+		81EDBA482B376657004C39E6 /* BottomNavigation */ = {
 			isa = PBXGroup;
 			children = (
 				81EDBA492B376669004C39E6 /* view */,
 				81EDBA462B37660B004C39E6 /* BottomNavigation.swift */,
 			);
-			path = bottom_navigation;
+			path = BottomNavigation;
 			sourceTree = "<group>";
 		};
 		81EDBA492B376669004C39E6 /* view */ = {
@@ -460,6 +493,7 @@
 				813870032B3A538900E30BD6 /* Alamofire */,
 				81C95E362B40532400671E71 /* GoogleSignIn */,
 				81C95E382B40532400671E71 /* GoogleSignInSwift */,
+				81ECCBB42B46DAF8004190AC /* YouTubePlayerKit */,
 			);
 			productName = "Streaming Amazing";
 			productReference = 811B5DCE2B371260004AF185 /* Streaming Amazing.app */;
@@ -492,6 +526,7 @@
 			packageReferences = (
 				813870022B3A538900E30BD6 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				81C95E352B40532300671E71 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				81ECCBB32B46DAF8004190AC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
 			);
 			productRefGroup = 811B5DCF2B371260004AF185 /* Products */;
 			projectDirPath = "";
@@ -598,16 +633,21 @@
 				81F6AB212B3774AF0088F70D /* RootScreen.swift in Sources */,
 				810B33952B3859B70051FA55 /* Subscription.swift in Sources */,
 				81C95E4D2B409AC100671E71 /* FontWithLineHeight.swift in Sources */,
+				816ED3422B49C590008AC849 /* DoubleExtension.swift in Sources */,
+				81A8823F2B471C0900A184E8 /* VideoDetails.swift in Sources */,
 				81EDBA472B37660B004C39E6 /* BottomNavigation.swift in Sources */,
 				81C3FEC82B39A17800C30B06 /* VideosWithChannel.swift in Sources */,
 				813870002B3A50D000E30BD6 /* HttpClient.swift in Sources */,
 				810B33972B385A6A0051FA55 /* ThumbnailsSubscription.swift in Sources */,
+				81ECCBB22B46D7C4004190AC /* DetailsVideoScreen.swift in Sources */,
 				81C95E4A2B40969D00671E71 /* ImageExtension.swift in Sources */,
+				816ED3402B49C1D0008AC849 /* BackButton.swift in Sources */,
 				810B339D2B3861180051FA55 /* SubscriptionView.swift in Sources */,
 				81F6AB1A2B3773C90088F70D /* HomeScreen.swift in Sources */,
 				8138700A2B3A585400E30BD6 /* ViodeosWithChannelModel.swift in Sources */,
 				81C95E2D2B404B3C00671E71 /* SubscriptionModel.swift in Sources */,
 				811B5E1E2B371E04004AF185 /* ColorsApp.swift in Sources */,
+				81A882412B471CE600A184E8 /* VideoDetailsModel.swift in Sources */,
 				813870062B3A565000E30BD6 /* Videos.swift in Sources */,
 				8117EB962B46411200D304D8 /* TiitleAndSubTitle.swift in Sources */,
 				81C3FECC2B39A3DC00C30B06 /* RowVideosWithChannel.swift in Sources */,
@@ -758,8 +798,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -790,8 +830,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -846,6 +886,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		81ECCBB32B46DAF8004190AC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -863,6 +911,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 81C95E352B40532300671E71 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		81ECCBB42B46DAF8004190AC /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81ECCBB32B46DAF8004190AC /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

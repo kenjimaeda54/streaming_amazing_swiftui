@@ -92,4 +92,22 @@ class HttpClient {
         }
       }
   }
+
+  func fetchDetailsVideo(completion: @escaping (Result<VideoDetails, HttpError>) -> Void, videoId: String) {
+    AF
+      .request(
+        "\(baseUrl)/videos?part=snippet&part=statistics&id=\(videoId)&key=AIzaSyAVxRrP61Dw76EUidoiPpfavIdqN62_LBw"
+      )
+      .cacheResponse(using: .cache).responseDecodable(of: VideoDetails.self) { data in
+
+        switch data.result {
+        case let .failure(error):
+          debugPrint(error)
+          completion(.failure(.noData))
+
+        case let .success(video):
+          completion(.success(video))
+        }
+      }
+  }
 }

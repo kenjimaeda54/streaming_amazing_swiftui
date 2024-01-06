@@ -13,7 +13,7 @@ struct SubscriptionView: View {
     VStack {
       AsyncImage(url: URL(string: itenSubscription.snippet.thumbnails.medium.url)) { phase in
         if let photo = phase.image {
-          photo.resizable().frame(width: 70, height: 70).clipShape(RoundedRectangle(cornerRadius: 35))
+          photo.resizable().frame(width: 60, height: 60).clipShape(RoundedRectangle(cornerRadius: 30))
         }
       }
       Text(itenSubscription.snippet.title)

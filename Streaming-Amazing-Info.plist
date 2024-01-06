@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.46079490013-e190vc68lfc40ld4uhnsgeu814s77392</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>46079490013-e190vc68lfc40ld4uhnsgeu814s77392.apps.googleusercontent.com</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Poppings-Black.ttf</string>
@@ -13,17 +24,6 @@
 		<string>Lato-Light.ttf</string>
 		<string>Lato-Regular.ttf</string>
 		<string>Lato-Bold.ttf</string>
-	</array>
-	<key>GIDClientID</key>
-	<string>46079490013-e190vc68lfc40ld4uhnsgeu814s77392.apps.googleusercontent.com</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>com.googleusercontent.apps.46079490013-e190vc68lfc40ld4uhnsgeu814s77392</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>
