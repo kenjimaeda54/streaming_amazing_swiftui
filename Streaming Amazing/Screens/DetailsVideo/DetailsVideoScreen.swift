@@ -61,7 +61,8 @@ struct DetailsVideoScreen: View {
 
           switch state {
           case .idle:
-            ProgressView()
+            PlaceHolderImageThumbVideo()
+              .redactShimmer(condition: true)
 
           case .error:
             Text("Error")
@@ -79,7 +80,22 @@ struct DetailsVideoScreen: View {
 
       switch videosDetailsModel.loading {
       case .loading:
-        Text("loading")
+        VStack {
+          PlaceHolderText()
+          HStack {
+            PlaceHolderText()
+            PlaceHolderText()
+            PlaceHolderText()
+          }
+          .padding(.bottom, 40)
+          HStack {
+            PlaceholderAvatar()
+              .redactShimmer(condition: true)
+            PlaceHolderText()
+            PlaceHolderText()
+          }
+          PlaceHolderRichText()
+        }
 
       case .failure:
         EmptyView()

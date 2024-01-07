@@ -14,19 +14,28 @@ struct LiveScreen: View {
 
   var body: some View {
     VStack(alignment: .leading, spacing: 14) {
-      List(videosChannelModel.videosWitchChannelModel) { video in
-        RowVideosWithChannel(videosWithChannel: video)
-          .listRowInsets(EdgeInsets())
-          .listRowSeparator(.hidden)
-          .onTapGesture {
-            isPresentedDetails = true
-            videoSelected = video
-          }
+      switch videosChannelModel.loading {
+      case .loading:
+        PlaceHolderVideosWithChannel()
+
+      case .failure:
+        Text("")
+
+      case .success:
+        List(videosChannelModel.videosWitchChannelModel) { video in
+          RowVideosWithChannel(videosWithChannel: video)
+            .listRowInsets(EdgeInsets())
+            .listRowSeparator(.hidden)
+            .onTapGesture {
+              isPresentedDetails = true
+              videoSelected = video
+            }
+        }
+        .padding(.trailing, 13)
+        .listStyle(.inset)
+        .scrollIndicators(.never)
+        .frame(minWidth: 0, maxWidth: .infinity)
       }
-      .padding(.trailing, 13)
-      .listStyle(.inset)
-      .scrollIndicators(.never)
-      .frame(minWidth: 0, maxWidth: .infinity)
     }
     .padding(.leading, 15)
     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top)

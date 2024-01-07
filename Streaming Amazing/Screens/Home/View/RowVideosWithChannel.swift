@@ -12,30 +12,32 @@ struct RowVideosWithChannel: View {
 
   var body: some View {
     VStack {
-      AsyncImage(url: URL(string: videosWithChannel.thumbVideo)) { phase in
-        if let photo = phase.image {
-          photo
-            .resizable()
-            .frame(height: 250)
-            .clipShape(RoundedRectangle(cornerRadius: 15))
-        }
-        HStack {
-          AsyncImage(url: URL(string: videosWithChannel.thumbProfileChannel)) { phase in
-            if let photo = phase.image {
-              photo
-                .resizable()
-                .scaledToFit()
-                .frame(height: 55)
-                .clipShape(RoundedRectangle(cornerRadius: 30))
-            }
-          }
-          Text(videosWithChannel.titleVideo)
-            .lineLimit(2)
-            .font(.custom(FontsApp.latoRegular, size: 18))
-            .foregroundStyle(.black100)
-        }
-        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+      AsyncImage(url: URL(string: videosWithChannel.thumbVideo)) { image in
+        image
+          .resizable()
+          .frame(height: 250)
+          .clipShape(RoundedRectangle(cornerRadius: 15))
+
+      } placeholder: {
+        PlaceHolderImageThumbVideo()
       }
+
+      HStack {
+        AsyncImage(url: URL(string: videosWithChannel.thumbProfileChannel)) { phase in
+          if let photo = phase.image {
+            photo
+              .resizable()
+              .scaledToFit()
+              .frame(height: 55)
+              .clipShape(RoundedRectangle(cornerRadius: 30))
+          }
+        }
+        Text(videosWithChannel.titleVideo)
+          .lineLimit(2)
+          .font(.custom(FontsApp.latoRegular, size: 18))
+          .foregroundStyle(.black100)
+      }
+      .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
       .padding(.vertical, 15)
     }
   }

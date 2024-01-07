@@ -7,14 +7,16 @@
 
 import SwiftUI
 
+// para lidar com place holder em imagens assyncronas e bom
+// ter uma imagem local no bundle,paceholderAvatar carrega ela
 struct SubscriptionView: View {
   let itenSubscription: ItensSubscription
   var body: some View {
     VStack {
-      AsyncImage(url: URL(string: itenSubscription.snippet.thumbnails.medium.url)) { phase in
-        if let photo = phase.image {
-          photo.resizable().frame(width: 60, height: 60).clipShape(RoundedRectangle(cornerRadius: 30))
-        }
+      AsyncImage(url: URL(string: itenSubscription.snippet.thumbnails.medium.url)) { image in
+        image.resizable().frame(width: 60, height: 60).clipShape(RoundedRectangle(cornerRadius: 30))
+      } placeholder: {
+        PlaceholderAvatar()
       }
       Text(itenSubscription.snippet.title)
         .font(.custom(FontsApp.latoLight, size: 15))
