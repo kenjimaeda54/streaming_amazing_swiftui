@@ -12,7 +12,7 @@
 		</dict>
 	</array>
 	<key>GIDClientID</key>
-	<string>46079490013-e190vc68lfc40ld4uhnsgeu814s77392.apps.googleusercontent.com</string>
+	<string>$(CLIENT_ID)</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Poppings-Black.ttf</string>

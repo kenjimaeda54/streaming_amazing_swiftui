@@ -17,8 +17,7 @@ enum HttpError: Error {
 // https://www.swiftbysundell.com/articles/swift-concurrency-multiple-tasks-in-parallel/
 
 class HttpClient {
-	
-	//precisa inserir seu apiKey no enviroment
+  // precisa inserir seu apiKey no enviroment
   var apiKey: String {
     guard let apiKey = ProcessInfo.processInfo.environment["API_KEY"] else { return "" }
     return apiKey
