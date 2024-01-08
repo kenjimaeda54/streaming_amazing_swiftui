@@ -14,7 +14,7 @@ struct RootScreen: View {
   var body: some View {
     Group {
       if GIDSignIn.sharedInstance.currentUser != nil || isLoggedIn {
-        BottomNavigation()
+        BottomNavigation(isLoggedIn: $isLoggedIn)
       } else {
         SigInScreen(isLoggedIn: $isLoggedIn)
       }

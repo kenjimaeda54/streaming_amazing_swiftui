@@ -54,6 +54,22 @@ struct DetailsVideoScreen: View {
     return formatInterval(duration: Date().timeIntervalSince(date))
   }
 
+  func getSafeAreaTop() -> CGFloat {
+    let keyWindow = UIApplication.shared.connectedScenes
+
+        .filter { $0.activationState == .foregroundActive }
+
+        .map { $0 as? UIWindowScene }
+
+        .compactMap { $0 }
+
+        .first?.windows
+
+        .filter { $0.isKeyWindow }.first
+
+    return (keyWindow?.safeAreaInsets.top)!
+  }
+
   var body: some View {
     VStack(alignment: .leading) {
       ZStack(alignment: .topLeading) {
@@ -76,6 +92,8 @@ struct DetailsVideoScreen: View {
           ColorsApp.black100
         )
         BackButton()
+          .padding(.top, getSafeAreaTop())
+          .padding(.horizontal, 13)
       }
 
       switch videosDetailsModel.loading {

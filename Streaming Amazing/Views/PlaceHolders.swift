@@ -42,6 +42,22 @@ struct PlaceHolderImageThumbVideo: View {
   }
 }
 
+struct PlaceHolderPlaystVideoChannel: View {
+  var body: some View {
+    List(videosPlayListChannelMock.items, id: \.id) { item in
+      RowVideoChannel(item: item.snippet)
+        .listRowInsets(EdgeInsets())
+        .listRowSeparator(.hidden)
+        .listRowBackground(ColorsApp.gray50.opacity(0.7))
+        .redactShimmer(condition: true)
+    }
+    .listStyle(.inset)
+    .scrollIndicators(.never)
+    .contentMargins(.bottom, 50)
+    .scrollBounceBehavior(.basedOnSize)
+  }
+}
+
 struct PlaceHolderAvatarSubscription: View {
   var body: some View {
     ScrollView(.horizontal, showsIndicators: false) {
@@ -73,5 +89,5 @@ struct PlaceHolderRichText: View {
 }
 
 #Preview {
-  PlaceHolderAvatarSubscription()
+  PlaceHolderPlaystVideoChannel()
 }

@@ -11,8 +11,10 @@ struct ProfileScreen: View {
   @EnvironmentObject var userAuthenticationEnvironment: UserAuthenticationModel
   @StateObject private var userAuthenticationModel = UserAuthenticationModel()
   @State private var isPresented = false
+  @Binding var isLoggedIn: Bool
 
   func handleSingOut() {
+    isLoggedIn = false
     userAuthenticationModel.signOut()
     isPresented = true
   }
@@ -52,5 +54,5 @@ struct ProfileScreen: View {
 }
 
 #Preview {
-  ProfileScreen().environmentObject(UserAuthenticationModel())
+  ProfileScreen(isLoggedIn: .constant(true)).environmentObject(UserAuthenticationModel())
 }

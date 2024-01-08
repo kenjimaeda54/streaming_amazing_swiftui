@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BottomNavigation: View {
   @State var currentTag: TabsTag = .home
+  @Binding var isLoggedIn: Bool
   @StateObject var userAuthenticationModel = UserAuthenticationModel()
 
   func handleCurrentTag(_ tag: TabsTag) {
@@ -32,7 +33,7 @@ struct BottomNavigation: View {
               .offset(y: -15)
           }
       case .profile:
-        ProfileScreen()
+        ProfileScreen(isLoggedIn: $isLoggedIn)
           .safeAreaInset(edge: .bottom) {
             BottomItemNavigation(handleCurrentTag: handleCurrentTag, currentTag: currentTag)
               .offset(y: -15)
@@ -44,5 +45,5 @@ struct BottomNavigation: View {
 }
 
 #Preview {
-  BottomNavigation()
+  BottomNavigation(isLoggedIn: .constant(true))
 }

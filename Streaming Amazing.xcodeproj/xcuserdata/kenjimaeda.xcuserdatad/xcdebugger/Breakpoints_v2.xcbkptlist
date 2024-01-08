@@ -7,17 +7,353 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AD5DA45B-017F-4EC1-82CA-C3A9878B7EA7"
+            uuid = "EEEA4F38-D12D-4E85-BCCA-2D1C2789EACB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Streaming Amazing/Screens/DetailsVideo/DetailsVideoScreen.swift"
+            filePath = "Streaming Amazing/Screens/Profille/ProfileScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B847116-E28B-449A-9336-AC80A30BE491"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Profille/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "handleSingOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E210029-FEDE-42F2-993D-46ACFEFD679A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Profille/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "handleSingOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9D71464-DA31-4AF3-8567-9AB6322942EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Profille/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "handleSingOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A101776-3AA8-4D46-87BC-51AABE3A91E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/User/UserAuthenticationModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "signOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FA1784F-02D5-4F59-9B3B-BB9CFEF7A7D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/User/UserAuthenticationModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "checkStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "406DB137-B102-497C-A463-21135F62B21A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/User/UserAuthenticationModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "checkStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "644F078C-F2EC-418E-A87F-6196EB66AF42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/User/UserAuthenticationModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "checkStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A53C7FD0-621D-4F2A-B641-C33EAA60C201"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Models/User/UserAuthenticationModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "checkStatus()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA6B1FF2-3271-433A-8892-F156D7EC18E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Profille/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DA6B1FF2-3271-433A-8892-F156D7EC18E9 - 3db0a19868cc3d0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarBackButtonHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in Streaming_Amazing.ProfileScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Profille/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "DA6B1FF2-3271-433A-8892-F156D7EC18E9 - 3db0a19868cc42ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarBackButtonHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in Streaming_Amazing.ProfileScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Profille/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0288F3B-841E-43EA-9317-0DFE4123C470"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Profille/ProfileScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A0288F3B-841E-43EA-9317-0DFE4123C470 - 515a0fd0386e498a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Streaming_Amazing.ProfileScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Profille/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1264">
+               </Location>
+               <Location
+                  uuid = "A0288F3B-841E-43EA-9317-0DFE4123C470 - 3db0a19868cc42cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarBackButtonHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in Streaming_Amazing.ProfileScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Profille/ProfileScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05D8A2DB-DF53-4198-8876-195D4D315074"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Root/RootScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD20456C-9268-4675-BB86-5A5945101879"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Root/RootScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "FD20456C-9268-4675-BB86-5A5945101879 - e08a038da75239a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;Streaming_Amazing.BottomNavigation, Streaming_Amazing.SigInScreen&gt; in Streaming_Amazing.RootScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Root/RootScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "FD20456C-9268-4675-BB86-5A5945101879 - e08a038da75239a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;Streaming_Amazing.BottomNavigation, Streaming_Amazing.SigInScreen&gt; in Streaming_Amazing.RootScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Root/RootScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "404">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE87757F-E9DF-4AF4-9EFC-3FBA64174B0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Streaming Amazing/Screens/Root/RootScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AE87757F-E9DF-4AF4-9EFC-3FBA64174B0B - e08a038da75239e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;Streaming_Amazing.BottomNavigation, Streaming_Amazing.SigInScreen&gt; in Streaming_Amazing.RootScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Root/RootScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "AE87757F-E9DF-4AF4-9EFC-3FBA64174B0B - e08a038da75239e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;Streaming_Amazing.BottomNavigation, Streaming_Amazing.SigInScreen&gt; in Streaming_Amazing.RootScreen.body.getter : some"
+                  moduleName = "Streaming Amazing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kenjimaeda/Documents/projects_IOS/streaming_amazing_swiftui/Streaming%20Amazing/Screens/Root/RootScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "996">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

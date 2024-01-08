@@ -11,7 +11,9 @@ struct HomeScreen: View {
   @StateObject private var videosChannelModel = VideosWithChannelModel()
   @StateObject private var subscriptionModel = SubscriptionModel()
   @EnvironmentObject var userAuthentication: UserAuthenticationModel
-  @State private var isPresentedDetails = false
+  @State private var isPresentedDetailsVideo = false
+  @State private var isPresentedDetailsVideosChannel = false
+  @State private var channelSelected: ItensSubscription?
   @State private var videoSelected: VideosWithChannel?
 
   var body: some View {
@@ -50,6 +52,10 @@ struct HomeScreen: View {
           LazyHGrid(rows: gridItensSubscriptions, spacing: rowSpacing, pinnedViews: []) {
             ForEach(subscriptionModel.subscription.items) { data in
               SubscriptionView(itenSubscription: data)
+                .onTapGesture {
+                  isPresentedDetailsVideosChannel = true
+                  channelSelected = data
+                }
             }
           }
         }
@@ -69,7 +75,7 @@ struct HomeScreen: View {
             .listRowInsets(EdgeInsets())
             .listRowSeparator(.hidden)
             .onTapGesture {
-              isPresentedDetails = true
+              isPresentedDetailsVideo = true
               videoSelected = video
             }
         }
@@ -93,9 +99,15 @@ struct HomeScreen: View {
     .onAppear {
       subscriptionModel.fetchSubscription(token: userAuthentication.user.idToken ?? "")
     }
-    .navigationDestination(isPresented: $isPresentedDetails) {
+    .navigationDestination(isPresented: $isPresentedDetailsVideo) {
       if let video = videoSelected {
         DetailsVideoScreen(video: video)
+          .navigationBarBackButtonHidden()
+      }
+    }
+    .navigationDestination(isPresented: $isPresentedDetailsVideosChannel) {
+      if let channel = channelSelected {
+        DetailsChannelScreen(channel: channel)
           .navigationBarBackButtonHidden()
       }
     }
