@@ -57,6 +57,7 @@
 		816ED3442B49CD51008AC849 /* PlaceHolders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816ED3432B49CD51008AC849 /* PlaceHolders.swift */; };
 		816ED3462B49CDA7008AC849 /* RedacShimmerViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816ED3452B49CDA7008AC849 /* RedacShimmerViewModifier.swift */; };
 		816ED3482B49CDE0008AC849 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816ED3472B49CDE0008AC849 /* Shimmer.swift */; };
+		817182362B4C1AE100263AD9 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 817182352B4C1AE100263AD9 /* Config.xcconfig */; };
 		81A8823F2B471C0900A184E8 /* VideoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A8823E2B471C0900A184E8 /* VideoDetails.swift */; };
 		81A882412B471CE600A184E8 /* VideoDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A882402B471CE600A184E8 /* VideoDetailsModel.swift */; };
 		81AA46812B4B0CEE001920D7 /* DetailsChannelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AA46802B4B0CEE001920D7 /* DetailsChannelScreen.swift */; };
@@ -141,6 +142,7 @@
 		816ED3432B49CD51008AC849 /* PlaceHolders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolders.swift; sourceTree = "<group>"; };
 		816ED3452B49CDA7008AC849 /* RedacShimmerViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedacShimmerViewModifier.swift; sourceTree = "<group>"; };
 		816ED3472B49CDE0008AC849 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		817182352B4C1AE100263AD9 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = "Streaming Amazing/Config.xcconfig"; sourceTree = "<group>"; };
 		81A8823E2B471C0900A184E8 /* VideoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetails.swift; sourceTree = "<group>"; };
 		81A882402B471CE600A184E8 /* VideoDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsModel.swift; sourceTree = "<group>"; };
 		81AA46802B4B0CEE001920D7 /* DetailsChannelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsChannelScreen.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 		811B5DC52B371260004AF185 = {
 			isa = PBXGroup;
 			children = (
+				817182352B4C1AE100263AD9 /* Config.xcconfig */,
 				811B5E1B2B371C37004AF185 /* Streaming-Amazing-Info.plist */,
 				811B5DD02B371260004AF185 /* Streaming Amazing */,
 				811B5DCF2B371260004AF185 /* Products */,
@@ -599,6 +602,7 @@
 				811B5E142B371C22004AF185 /* Poppins-Black.ttf in Resources */,
 				811B5DD92B371261004AF185 /* Preview Assets.xcassets in Resources */,
 				811B5E0C2B371C22004AF185 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				817182362B4C1AE100263AD9 /* Config.xcconfig in Resources */,
 				811B5E0B2B371C22004AF185 /* Poppins-LightItalic.ttf in Resources */,
 				811B5E152B371C22004AF185 /* Poppins-Medium.ttf in Resources */,
 				811B5E0E2B371C22004AF185 /* Poppins-Thin.ttf in Resources */,
@@ -729,6 +733,7 @@
 /* Begin XCBuildConfiguration section */
 		811B5DDA2B371261004AF185 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817182352B4C1AE100263AD9 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -792,6 +797,7 @@
 		};
 		811B5DDB2B371261004AF185 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817182352B4C1AE100263AD9 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -848,6 +854,7 @@
 		};
 		811B5DDD2B371261004AF185 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817182352B4C1AE100263AD9 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -880,6 +887,7 @@
 		};
 		811B5DDE2B371261004AF185 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817182352B4C1AE100263AD9 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
