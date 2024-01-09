@@ -271,11 +271,11 @@ struct BottomNavigation: View {
                 isPresented = true
                 playListSelected = item
                 // para trabalhar com assincrono posso usar a palavara reservada  task
-                //						Task {
+                //	Task {
                 //
-                //								 videosDetailsModel.fetchVideosDetails(videoId: item.resourceId.videoId)
+                //		 videosDetailsModel.fetchVideosDetails(videoId: item.resourceId.videoId)
                 //
-                //							}
+                //	}
               }
           }
           .listStyle(.inset) // remover o comportamento padrao das lidas
