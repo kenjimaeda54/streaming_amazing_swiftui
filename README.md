@@ -11,7 +11,7 @@ Aplicativo de streaming de vídeos, consumindo API do Youtube.  Pode visualizar 
  ```swift
 
 
-// MV nao possui views models
+// MV não possui views models
 
 // Voce construi a camda HTTP Client e as camadas model
 
